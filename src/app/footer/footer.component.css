@@ -1,0 +1,131 @@
+footer {
+    .logo-footer-image{
+        height: 255px;
+        width: 305px;
+    
+        img{
+            width: 140%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .text-image-footer{
+        color: white !important;
+        position: relative;
+        bottom: 25px;
+    }
+    img {
+        position: relative;
+        bottom: 20px;
+        right: 35px;
+
+    }
+
+    
+    margin-top: 140px;
+    margin-bottom: 0px !important;
+    background-color: #112a44;
+
+    h5 {
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    /* background-color: white; */
+    .nav-link {
+        color: #80d1ca !important;
+    }
+    .all-image-footer{
+        display: flex;
+        .second-logo{
+            display: flex;
+            width: 100px;
+            height: 220px;
+            p{
+                font-family: "Montserrat", serif;
+                 font-optical-sizing: auto;
+                 font-weight: 700;
+                position: relative;
+                right: -92px;
+                bottom: 10px;
+                font-size: 28px;
+                letter-spacing: 6px;
+                color: white;
+                margin-left: -125px;
+            }
+        }
+    }
+}
+
+.border-top {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+}
+
+.hardcoded-footer--social-desktop {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.nv-ids a,
+.nv-ids a:visited {
+    color: #2c6baa;
+    text-decoration: underline;
+}
+
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+.hardcoded-footer--social a svg path {
+    fill: #fff;
+}
+
+.mb-3 {
+    margin-top: 60px;
+    width: 245Px;
+}
+
+.mb-2 {
+    line-height: 20px;
+}
+
+
+.terms {
+    width: 100%;
+    margin-top: -40px;
+
+    .content {
+        .text {
+            color: #a8aab3;
+        }
+
+        p{
+            float: right;
+            padding: 0px 150px 0 0;
+        }
+    }
+}
+
+.respo-footer-col{
+    margin-top: 60px;
+    width: 255Px !important;
+
+}
+.py-5 {
+padding-top: 1rem !important;
+padding-bottom: 1rem !important;
+}
+
+.row-for-footer {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+  
+}

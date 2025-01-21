@@ -1,0 +1,414 @@
+p, h1, h2, h3, h4, h5, h6, a, span{
+    font-family: "Poppins", serif;
+
+}
+
+body{
+    background-color: white;
+}
+.PanelDetail{
+    height: 90px;
+
+ button{
+    background-color: transparent;
+    color: #128279;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+
+}
+.active_panel{
+    color: #041d20  !important;
+    cursor: default;
+ }
+
+.body-content{
+    display: flex;
+    .GeneralInfo{
+        display: flex;
+        
+        .cardImage{
+            height: 140px;
+            width: 180px;
+            border-radius: 10px;
+            img{
+                height: auto;
+                width: 100%;
+            }
+        }
+        .panelTextContainer{
+            padding: 0 0 0 25px;
+            .panelText{
+                h1{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #128279;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #128279;
+                }
+                
+            }
+            
+        }
+        .detail{
+            p{
+                color: #565963;
+                font-weight: 300;
+                position: relative;
+                top: 30px;          
+                font-weight: 600;
+
+                span{
+                    font-weight: 400;
+                    color: black;
+                }
+            }
+            button{
+                background: transparent;
+                color: #128279;
+                border: none;
+            }
+            
+        }
+    }
+    .under_line {
+        height: 1px;
+        width: 100%;
+        background-color: #c9cbd5;
+        display: block;
+        margin: 50px 0 20px 0px;
+    }
+
+
+    /*    description */
+    .description{
+        .title{
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;            
+        }      
+    }
+
+
+    .recommandations{
+        .title{
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;            
+        }
+        .modal-description{
+            background-color: transparent;
+            border-radius: 7px;
+            border: 2px solid #128279;
+            color: #128279;
+            padding-inline: 16px;
+            font-size: 14px;
+            letter-spacing: .5px;
+            font-weight: 700;
+        }
+        
+        
+    }
+}
+
+.body_right{
+  
+   
+}
+
+
+
+
+
+.OrderContainerWrapper_titleWrapper__NqLxm {
+    box-shadow: none;
+    cursor: default;
+    display: flex;
+    -webkit-padding-after: 20px;
+    padding-block-end: 20px;
+    align-items: center;
+    top: 0;
+    -webkit-padding-before: 20px;
+    padding-block-start: 20px;
+    z-index: 700;
+    padding-inline: 5px;
+    cursor: pointer;       
+}
+.OrderContainerWrapper_primaryPanelTitle__fgTfS{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+.OrderContainerWrapper_geneCustomizationWrapperClosed__BYbHJ {
+    padding: 15px 15px 0px 15px;
+    display: flex;
+}
+
+.PanelItemCustomization_root__EYjrG {
+    margin-block: 20px;
+    background-color: #fff;
+    border: 1px solid #2c6baa;
+    border-radius: 6px;
+}
+
+.PanelItemCustomization_topWrapper__0UE7b {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #c9cbd5;
+    border-radius: 6px 6px 0px 0px;
+    padding: 0 0 15px 0px;
+}
+.PanelItemCustomization_panelTitleWrapper__kantv {
+    display: flex ;
+    align-items: center;
+    -webkit-margin-start: 22px;
+    margin-inline-start: 22px;
+    -webkit-margin-before: 22px;
+    margin-block-start: 22px;
+}
+.CustomizedPanelGenesCount_openedGeneTiles__kOM0A {
+    color: #2c6baa;
+}
+
+
+.GeneTiles_geneTilesContainer__jJQoL {
+    position: relative;
+    padding-bottom: 25px;
+}
+.GeneTiles_geneTilesWrapper__7Leg7 {
+    margin-block: 20px;
+    -webkit-margin-start: 20px;
+    margin-inline-start: 15px;
+    display: flex
+;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0;
+}
+.GeneTiles_tooltipButton__OZfWz {
+    width: calc(33% - 12px);
+    -webkit-margin-end: 10px;
+    margin-inline-end: 10px;
+    -webkit-margin-after: 10px;
+    margin-block-end: 10px;
+    cursor: pointer;
+    height: 20px;
+    min-width: 85px;
+}
+.GeneTiles_tooltipButton__OZfWz {
+    width: calc(25% - 12px);
+}
+.GeneTileItem_selected__oghO5 {
+    background-color: #2c6baa;
+    color: #fff;
+}
+.GeneTileItem_root__WUTBM {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 5px;
+}
+.GeneTiles_showAllGenes__PacCA {
+    border: 1px solid #565963;
+    border-radius: 18px;
+    color: #565963;
+    font-size: 12px;
+    line-height: 18px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-inline: 10px;
+    margin-inline: auto;
+    -webkit-margin-after: 20px;
+    margin-block-end: 20px;
+    cursor: pointer;
+}
+.OrderContainerWrapper_addToOrderButtonWrapper__j1BDh {
+    position: unset;
+    left: unset;
+    right: unset;
+    width: unset;
+    background-color: white;
+
+    padding: 20px 30px;
+}
+
+.OrderContainerWrapper_addToOrderButton__QLsEC {
+    width: 100%;
+    height: 46px;
+}
+.OrderContainerWrapper_geneCustomizationWrapper__uph8t {
+    background-color: white;
+
+    padding-inline: 0px;
+    -webkit-padding-after: 30px;
+    padding-block-end: 0px;
+}
+.PanelItemCustomization_panelTitle__jPtGY {
+    margin-left: 12.66px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+
+}
+.PanelItemCustomization_iconCheck__3tskj {
+    min-width: 20px;
+    position: relative;
+ }
+.CustomizedPanelGenesCount_primaryPanelGenesInfo__2M4HS {
+    -webkit-margin-start: 54px;
+    margin-inline-start: 54px;
+}
+
+.GeneTileItem_geneTitle__CWCVn {
+    font-size: 11px;
+    line-height: 18px;
+    white-space: nowrap;
+}
+.PanelCardItem_card___yPgH {
+    padding: 30px;
+    grid-column: span 4;
+}
+.PanelCardItem_card___yPgH {
+    grid-column: span 4;
+    width: 100%;
+    min-height: 160px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #fff;
+    padding: 20px;
+    display: flex
+;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .12);
+    border-radius: 8px;
+}
+.PanelCardItem_cardMain__CQV3l {
+    display: flex
+;
+    justify-content: space-between;
+    position: unset;
+}
+.OtherTestsItemWrapper_titleRoot__jTlzs {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+}
+.PanelCardItem_cardInnerContainer__XAXMT {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    position: unset;
+}
+.wrapperChildren {
+    display: inline-block;
+}
+.PanelCardItem_cardGeneCount__sd_kN {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    width: 100%;
+    justify-content: flex-end;
+}
+.nv-plain-action {
+    display: inline-flex
+;
+    cursor: pointer;
+    color: #128279;
+    align-items: center;
+}
+button, input, select, textarea {
+
+    padding-block: 0;
+    padding-inline: 0;
+    border: none;
+    background: none;
+    border-radius: 0;
+}
+.PanelCardItem_addButton__XZw3L{
+    border: none;
+    background-color: #128279;
+    color: white;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding-inline: 23px;
+    line-height: 35px;
+    width: 100%;
+    
+}
+.OtherTestsItemWrapper_titleRoot__jTlzs {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none !important;
+}
+.OtherTestsItemWrapper_cardTitle__ejYFF {
+    font-weight: 500;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 215px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 100px;
+}
+.PanelCardItem_addButton__XZw3L:hover{
+    background-color: white;
+    color:  #128279;
+    border: 2px solid #128279;
+
+}
+.custom-tooltip {
+    --bs-tooltip-max-width: 600px;
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-black);
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .12);
+    padding: 16px;
+    color: black;
+  }
+  .section-test-cli{
+    padding: 33px !important;
+}
+
+.gener-hereditaires{
+    .GeneTiles_geneTilesWrapper__7Leg7 {
+        margin-block: 20px;
+        -webkit-margin-start: 20px;
+        margin-inline-start: 0px;
+        position: relative;
+        left: 23px;
+    }
+    .GeneTiles_tooltipButton__OZfWz {
+
+        height: 20px;
+        min-width: 65px;
+    }
+
+    .GeneTileItem_root__WUTBM {
+        padding: 0px 18px;
+    }
+}

@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+p, h1, h2, h3, h4, h5, h6, a, span{
+    font-family: "Poppins", serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.logout-btn{
+    border-top: 1px solid #d1d1d1 ; 
+    height: 50px; color: red;
+}
+.first-card-home{
+.card-img-top {
+    background-color: #1c96e3;
+}
+}
+.second-card-home{
+    .card-img-top {
+        background-color: #e05775;
+    }
+}
+#extra-input{
+    display: none;
+} 
+.GeneTileItem_checkIcon__ejypa {
+    display:block;
+    user-select:none;
+    fill:white;
+    shape-rendering:geometricPrecision;
+    overflow:visible;
+    width:11px
+}
+       
+.line-top-poumoun{
+    border-top: 1px solid #c9cbd5;
+     padding: 0 0 45px 0;
+}
+.btn-close-poumon{
+    margin: 0px !important;
+}

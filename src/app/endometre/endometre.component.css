@@ -1,0 +1,111 @@
+/*           endometre page       */
+.page-test-title{
+    border-bottom: 1px solid #a8aab3;
+        h3{
+            font-size: 40px;
+        }
+    }
+    .endometre-body-container {
+    
+        position: relative;
+        top: 30px;
+        padding: 5px !important;
+    
+        .body-title {
+            border-bottom: 1px solid #d9d9d9;
+    
+            h3 {
+    
+                font-weight: 600;
+                text-align: start;
+            }
+        }
+    
+        .content {
+            margin-top: 70px;
+    
+            .content_title {
+                h3 {
+    
+                    font-weight: 600;
+                    text-align: start;
+                }
+    
+                p {
+                    font-weight: 500;
+                }
+            }
+    
+            .cards-content {
+                .g-4 {
+                    display: flex;
+                    justify-content: center;
+                    
+    
+                    a {
+                        text-decoration: none;
+                        .h-100{
+                            box-shadow: 0 3px 10px 6px rgba(40, 41, 44, 0.12);
+    
+                        }    
+                        .h-100:hover {
+                            transform: translateY(-10px);
+                            transition: transform ease 220ms;
+                        }
+                    }
+                }
+            }
+        }
+        .endometre-ul{
+            padding: 0px;
+            p{
+                font-size: 15px;
+                font-weight: 500;
+                margin-bottom: 12px;
+            }
+        }
+    
+    }
+    
+    .endometre-card {
+        margin-top: 40px;
+        width: 370px !important;
+        height: 490PX;;
+    
+        .card-img-top {
+            height: 140px;
+        }
+        .card-img-top{
+            display: flex;
+            justify-content: center;
+            padding: 10% 0 0 0;
+    
+        }
+        .image-card{
+            border: 1px solid #d9d9d9;
+            width: 95px;
+            height: 95px;
+            border-radius: 55px;
+            margin-bottom: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .modal-command-body{
+        .GeneTiles_geneTilesWrapper__7Leg7 {
+            margin-block: 30px ; 
+            margin-inline-start: 45px ;
+        }
+    }
+    
+    .card-command{
+        height: 305px;
+    }
+    .genes-command{
+        height: 197px;
+    }
+    .card-hover:hover{
+        transform: scale(1.03);
+    }

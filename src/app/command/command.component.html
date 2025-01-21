@@ -1,0 +1,297 @@
+<div  class="main-container"  >
+       
+    <div class="form-title">
+        <p>INFORMATIONS SUR LE PATIENT</p>
+    </div>
+    <form class="wizard-form nv_form_container nv-grid  ">
+        <div class="FormWizard_gridWrapper__AGbNv">
+            <div class="KeyInfo_KeyInfoWrapper__EYzU3 container test_right">
+                <div class="KeyInfo_row__BVmb3 KeyInfo_nonPartnershipOrderRow__VVkfM row-special key_info_row">
+                  
+                    <div class="mini-cart--wrapper" role="presentation">
+                        <div class="mini-cart--root" aria-label="Cart" data-testid="mini-cart-icon" role="button" tabindex="0">
+                            <dl data-testid="test-selection" class="KeyInfo_col__xKugu">
+                                <dt>Tests selected</dt>
+                                <dd class="KeyInfo_selectedTests__qVhlj text_edit">
+                                    <div class="KeyInfo_selectedTests__qVhlj ">Diagnostic</div>
+                                    <span class="nv-ids">
+                                        <button class="nv-plain-action KeyInfo_editOrder__jpwRf" type="button">Edit</button>
+                                    </span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <fieldset class="mobile-fieldset">
+                <h2 class="title-container">Patient information</h2>
+                <p><strong>* Indique un champ obligatoire</strong></p>
+                <h3 class="FormGroupHeader_formGroupHeader__gx0v5 FormGroupHeader_sizeMd__GaOrI FormGroupHeader_hasBorder__cci3M patient">
+                    Détails du patient</h3>
+                <div class="PatientForm_patientInfoFormWrap__DIlfm">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="FormGroup_formField__dGYQV form-group">
+                                <label for="firstName" class="control-label">Prénom*</label>
+                                <input name="firstName" type="text" id="firstName" class="form-control" value="" required oninvalid="this.setCustomValidity('Ce champ est obligatoire')" oninput="this.setCustomValidity('')">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-3">
+                            <div class="FormGroup_formField__dGYQV form-group"><label for="lastName" class="control-label">Nom*</label><input name="lastName" type="text" id="lastName" class="form-control" value=""></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div data-testid="dob-field-container" class="col-sm-3">
+                            <div class="FormGroup_formField__dGYQV form-group">
+                                <label for="dob" class="control-label">Date de Naissance*</label>
+                                <input class="form-control" placeholder="MM/DD/YYYY" name="dob" data-testid="dob-field" value="">
+                            </div>
+                        </div>
+                        <div data-testid="sex-field-container" class="col-sm-3">
+                            <div meta="[object Object]" class="FormGroup_formField__dGYQV form-group">
+                                <label for="sex" class="control-label">
+                                    <div class="d-flex align-items-center" data-testid="sex-field-label">Genre
+                                        <div class="wrapperChildren" data-testid="tooltip-wrapper">
+                                            <svg fill="#19ac9f" height="12" viewBox="0 0 512 512" width="12" class="InfoTooltip_infoTooltipIcon__CQfc+" data-testid="info-tooltip-icon">
+                                                <path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                                </path>
+                                            </svg>
+                                         </div>
+                                     </div>
+                                </label>
+                                <div class="radio-group">
+                                    <label class="Radio_radioItem__VZ7Y6 radio-inline" title="">
+                                    <input aria-checked="false" name="sex" type="radio" value="Female">
+                                        <div aria-checked="false" class="radio-custom" role="radio" tabindex="0">
+                                            <div class="radio-mouse-target" tabindex="-1"></div>
+                                        </div>
+                                        <span class="radio-label">Femme</span>
+                                    </label>
+                                    <label class="Radio_radioItem__VZ7Y6 radio-inline" title="">
+                                        <input aria-checked="false" name="sex" type="radio" value="Male">
+                                        <div aria-checked="false" class="radio-custom" role="radio" tabindex="-1">
+                                            <div class="radio-mouse-target" tabindex="-1"></div>
+                                        </div>
+                                        <span class="radio-label">Homme</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="FormGroup_formField__dGYQV form-group"><label for="recordNumber" class="control-label">
+                                    <div class="d-flex align-items-center" data-testid="patient-id-field-label">Identifiant du patient
+                                        <div class="wrapperChildren" data-testid="tooltip-wrapper">
+                                            <svg fill="#19ac9f" height="12" viewBox="0 0 512 512" width="12" class="InfoTooltip_infoTooltipIcon__CQfc+" data-testid="info-tooltip-icon">
+                                                <path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </label>
+                                <input name="recordNumber" placeholder="Optional" type="text" id="recordNumber" class="form-control" value="">
+                            </div>
+                        </div>
+                        <div data-testid="deceased-field-container" class="col-sm-3">
+                            <div class="PatientForm_deceasedWrapper__GRJ5d nv-ids" >
+                                <div class="nv-checkbox-wrapper nv-checkbox-wrapper--block">
+                                    <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                        <div class="nv-checkbox-content"><input aria-checked="false" aria-disabled="false" aria-label="Patient is deceased" class="nv-checkbox" id="deceased" tabindex="0" type="checkbox"><span class="nv-checkbox-check"></span>
+                                        </div><label class="nv-cursor-pointer" for="deceased">Le patient est décédé</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="ancestry-container col-sm-12">
+                            <div class="nv-ids">
+                                <input name="ancestry" type="hidden">
+                                <div class="nv-form-control">
+                                    Race/Ethnicité (sélectionnez tout ce qui s'applique) (Optionnel)
+                                    <div class="nv-form-control-content" >
+                                        <div class="nv-formik-checkbox-group--checkbox-group AncestryForm_ancestryCheckboxWrapper__x7mD8" data-testid="wrapper-checkbox-group">
+                                            <div class="nv-checkbox-wrapper nv-checkbox-wrapper--inline">
+                                                <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                                    <div class="nv-checkbox-content">
+                                                        <input data-testid="ancestry_ashkenaziJewish" aria-checked="false" aria-disabled="false" aria-label="Ashkenazi Jewish" class="nv-checkbox" id="ancestry_ashkenaziJewish" tabindex="0" type="checkbox" value="Ashkenazi Jewish">
+                                                        <span class="nv-checkbox-check"></span>
+                                                    </div>
+                                                    <label for="ancestry_ashkenaziJewish"> Caucasian</label>
+                                                </div>
+                                            </div>
+                                           
+                                            <div class="nv-checkbox-wrapper nv-checkbox-wrapper--inline">
+                                                <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                                    <div class="nv-checkbox-content"><input data-testid="ancestry_frenchCanadian" aria-checked="false" aria-disabled="false" aria-label="French Canadian" class="nv-checkbox" id="ancestry_frenchCanadian" tabindex="0" type="checkbox" value="French Canadian"><span class="nv-checkbox-check"></span></div><label for="ancestry_frenchCanadian">
+                                                        African</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="nv-checkbox-wrapper nv-checkbox-wrapper--inline">
+                                                <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                                    <div class="nv-checkbox-content"><input data-testid="ancestry_nativeAmerican" aria-checked="false" aria-disabled="false" aria-label="Native American" class="nv-checkbox" id="ancestry_nativeAmerican" tabindex="0" type="checkbox" value="Native American"><span class="nv-checkbox-check"></span></div><label for="ancestry_nativeAmerican">
+                                                        Mediterranean</label>
+                                                </div>
+                                            </div>
+                                            <div class="nv-checkbox-wrapper nv-checkbox-wrapper--inline">
+                                                <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                                    <div class="nv-checkbox-content"><input data-testid="ancestry_pacificIslander" aria-checked="false" aria-disabled="false" aria-label="Pacific Islander" class="nv-checkbox" id="ancestry_pacificIslander" tabindex="0" type="checkbox" value="Pacific Islander"><span class="nv-checkbox-check"></span></div><label for="ancestry_pacificIslander">
+                                                        European</label>
+                                                </div>
+                                            </div>
+                                            <div class="nv-checkbox-wrapper nv-checkbox-wrapper--inline">
+                                                <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                                    <div class="nv-checkbox-content">
+                                                        <input data-testid="ancestry_autre"  aria-checked="false" aria-disabled="false" aria-label="Pacific Islander" class="nv-checkbox" id="ancestry_autre" tabindex="0" type="checkbox" value="Pacific Islander">
+                                                        <span class="nv-checkbox-check"></span>
+                                                    </div>
+                                                    <label for="ancestry_autre">
+                                                        Autre
+                                                    </label>
+                                                </div>
+                                                <div id="extra-input" >
+                                                    <label for="additional-info">Veuillez préciser:</label>
+                                                    <input class="form-control" type="tel" name="phone" aria-describedby="phoneFieldConsent" country="br" data-testid="phone-field" value="">
+                                                </div>
+                                                
+                                                <script>
+                                                    // JavaScript to toggle the input field
+                                                    const checkbox = document.getElementById('ancestry_autre');
+                                                    const extraInput = document.getElementById('extra-input');
+                                                
+                                                    checkbox.addEventListener('change', function () {
+                                                        if (checkbox.checked) {
+                                                            extraInput.style.display = 'block'; // Show the input field
+                                                        } else {
+                                                            extraInput.style.display = 'none'; // Hide the input field
+                                                        }
+                                                    });
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                   
+                <fieldset>
+                    <h3 class="FormGroupHeader_formGroupHeader__gx0v5 FormGroupHeader_sizeMd__GaOrI FormGroupHeader_hasBorder__cci3M title_contact">
+                        Coordonnées</h3>
+                    <div class="ContactsForm_contactsFormWrap__7-wo5" data-testid="contacts-form">
+                        <div class="ContactsForm_phoneAndEmailRow__+siPV row">
+                            <div class="col-sm-5">
+                                <div class="FormGroup_formField__dGYQV form-group">
+                                    <label for="phone" class="control-label">
+                                        <div class="d-flex align-items-center">Téléphone portable*
+                                            <div class="wrapperChildren" data-testid="tooltip-wrapper">
+                                                <svg fill="#19ac9f" height="12" viewBox="0 0 512 512" width="12" class="InfoTooltip_infoTooltipIcon__CQfc+" data-testid="info-tooltip-icon">
+                                                    <path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <input class="form-control" type="tel" name="phone" aria-describedby="phoneFieldConsent" country="br" data-testid="phone-field" value="">
+                                </div>
+                                <div class="ContactsForm_phoneFieldConsentText__VqwBL" id="phoneFieldConsent">En fournissant le numéro de téléphone portable du patient, je confirmer que le patient a consenti à recevoir des messages texte 
+                                </div>
+                            </div>
+                            <div data-testid="contact-field-email-container" class="col-sm-5">
+                                <div class="FormGroup_formField__dGYQV form-group">
+                                    <label for="email" class="control-label">
+                                        <div class="d-flex align-items-center">Email
+                                            <div class="wrapperChildren" data-testid="tooltip-wrapper">
+                                                <svg fill="#19ac9f" height="12" viewBox="0 0 512 512" width="12" class="InfoTooltip_infoTooltipIcon__CQfc+" data-testid="info-tooltip-icon">
+                                                    <path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <input name="email" data-testid="email-field" type="email" id="email" class="form-control" value="">
+                                </div>
+                                <div class="nv-ids" >
+                                    <div class="nv-checkbox-wrapper nv-checkbox-wrapper--block ContactsForm_noEmailCheckbox__xwhsF">
+                                        <div class="nv-checkbox-input-wrapper nv-checkbox-size--small">
+                                            <div class="nv-checkbox-content">
+                                                <input aria-checked="false" aria-disabled="false" aria-label="I don't have my patient's email address" class="nv-checkbox" id="noPatientEmail" tabindex="0" type="checkbox"><span class="nv-checkbox-check"></span>
+                                            </div>
+                                            <label class="nv-cursor-pointer" for="noPatientEmail">Je
+                                                n'ai pas l'adresse e-mail de mon patient</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="FormGroup_formField__dGYQV form-group">
+                                    <label for="city" class="control-label ">Ville*</label>
+                                    <select name="city" id="city" class="form-control select-control select-ville">
+                                        <option value="" disabled selected>Sélectionnez une ville</option>
+                                        <option value="Casablanca">Casablanca</option>
+                                        <option value="Rabat">Rabat</option>
+                                        <option value="Fès">Fès</option>
+                                        <option value="Marrakech">Marrakech</option>
+                                        <option value="Tanger">Tanger</option>
+                                        <option value="Agadir">Agadir</option>
+                                        <option value="Oujda">Oujda</option>
+                                        <option value="Kenitra">Kenitra</option>
+                                        <option value="Tetouan">Tetouan</option>
+                                        <option value="Safi">Safi</option>
+                                        <option value="Mohammedia">Mohammedia</option>
+                                        <option value="El Jadida">El Jadida</option>
+                                        <option value="Khouribga">Khouribga</option>
+                                        <option value="Beni Mellal">Beni Mellal</option>
+                                        <option value="Nador">Nador</option>
+                                        <option value="Ksar El Kebir">Ksar El Kebir</option>
+                                        <option value="Larache">Larache</option>
+                                        <option value="Khemisset">Khemisset</option>
+                                        <option value="Guelmim">Guelmim</option>
+                                        <option value="Taza">Taza</option>
+                                        <option value="Settat">Settat</option>
+                                        <option value="Sale">Sale</option>
+                                        <option value="Meknes">Meknes</option>
+                                        <option value="Ouarzazate">Ouarzazate</option>
+                                        <option value="Al Hoceima">Al Hoceima</option>
+                                        <option value="Dakhla">Dakhla</option>
+                                        <option value="Laayoune">Laayoune</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="FormGroup_formField__dGYQV form-group"><label for="address1" class="control-label">Adresse (Optionnel)</label><input class="form-control pac-target-input" placeholder="" value="" autocomplete="new-password"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="FormGroup_formField__dGYQV form-group">
+                                    <label for="city" class="control-label ">Centre</label>
+                                    <select name="city" id="city" class="form-control select-control select-ville">
+                                        <option value="" disabled selected>Sélectionnez le center</option>
+                                        <option value="Casablanca">Cabinet</option>
+                                        <option value="Rabat">CLINIQUE AGDAL - Rabat</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div>
+                </fieldset>
+            </fieldset>
+            <div class="nv-ids FormStepNavigation_actions__qIF9Y">
+                <div>
+                    <a routerLink="/test_hereditaires">
+                        <button aria-disabled="false" class="nv-button nv-button-medium nv-button-secondary " data-testid="save-as-draft-button" type="button">Annuler</button>
+                    </a>
+                    
+                </div>
+                <button aria-disabled="false" class="nv-button nv-button-medium continue_button go-up-next" data-testid="next-button" type="submit" >Envoyer la commande</button>
+            </div>
+        </div>
+    </form>
+</div>

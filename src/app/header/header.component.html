@@ -1,0 +1,47 @@
+<header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-md container-md-header">
+            <div class="imageheader">
+                <a class="navbar-brand"  routerLink="/"><img [src]="headerlogo" alt=""></a>
+            </div>
+            <div class="justify-content-end header-navbar">
+                <ul class="nav justify-content-end ">
+                    <li class="nav-item for-hover">
+                      <a class="nav-link active " aria-current="page"  routerLink="/">Catalogue</a>
+                    </li>
+                    <li class="nav-item for-hover">
+                      <a class="nav-link" routerLink="test_clinique" routerLinkActive="active" ariaCurrentWhenActive="page">Mes commandes</a>
+                    </li>
+                 </ul>
+           </div>
+        <div class=" account-nav" id="account-nav">
+            <div class="profil  ">
+                <div class="image-profil  z-1001" >
+                    <img [src]="profilpic" alt="">
+                </div>
+               
+                <div class="name z-1001" >
+                    <p>Doctor user</p>
+                </div>
+            </div>
+            <div class="drop-nav btn-mobile-gen">
+                    <div class="btn-group ">
+                        <a  routerLink="/" class="btn btn-secondary dropdown-toggle profile-drop-desktop btn-setting z-1001" data-bs-toggle="dropdown" aria-expanded="false" >
+                            paramètre de compte
+                        </a>
+                        <a  routerLink="/" class="btn btn-secondary dropdown-toggle d-none profil-btn-mobile btn-setting" data-bs-toggle="dropdown" aria-expanded="false" >
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end profile-drop" id="profile-drop">
+                            <li class="header-list first-li-profil" >
+                            </li>
+                            <li><a class="dropdown-item orders-btn"  routerLink="/">Ordres</a></li>
+                            <li><a class="dropdown-item parametre-btn"  routerLink="/">Paramètre</a></li>
+                            <li><a class="dropdown-item logout-btn pt-3"  routerLink="/" >Se déconnecter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </nav>
+</header>
+

@@ -1,0 +1,196 @@
+/*                      page  commande */
+
+.form-title{
+    background-color: #194066;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 0 0;
+    p{
+        font-size: 19px;
+        color: white;
+    }
+}
+
+
+.StepperItem_link__GQrGG{
+    text-decoration: none;
+
+ }
+ .step-trigger{
+    padding: 20px 0 20px 0 !important;
+ }
+ 
+ span{
+    color: white;
+    font-weight: 400;
+ }
+ svg{
+    margin: 0 10px;
+
+ }
+ a{
+    text-decoration: none;
+ }
+
+
+
+.step1form{
+width: 65%;
+margin: 0 10%;
+select,
+input{
+    border: 1px solid #bfbfbf;
+}
+}
+
+
+
+.patient_info_title{
+border-bottom: 1px solid #d9d9d9;
+}
+
+
+
+.test_right {
+display: flex;
+justify-content: flex-end;
+margin: 29px 0 -30px;
+padding: 0;
+dt {
+    color: gray;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.test_right,
+ .text_edit {
+    -webkit-margin-end: 10px;
+    display: inline;
+    margin-inline-end: 10px;
+}
+
+.nv-ids .nv-plain-action {
+    align-items: center;
+    color: #128279;
+    cursor: pointer;
+    display: inline-flex ;
+    background-color: transparent;
+    border: none !important;
+}
+.key_info_row{
+    background-color: #f1f1f7;
+    border-radius: 50px;
+    width: 170px;
+    padding: 10px 0px 0 10px;
+    text-align: center;
+}
+}
+.nv_form_container {
+inline-size: 1125px;
+margin-inline: auto;
+padding: 50px 0 0 0;
+}
+.form_container{
+margin: 0px 6% !important;
+max-width: 88% !important;
+}
+
+.title-container {
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+}
+.radio-inline{
+display: flex;
+}
+.radio-group{
+display: flex;
+gap: 20px;
+span{
+    color: black;
+    margin-left: 5px;
+}
+}
+
+.nv-formik-checkbox-group--checkbox-group {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* 4 columns */
+gap: 10px; /* Spacing between items */
+width: 80%;
+}
+
+.nv-checkbox-wrapper {
+margin: 0; /* Adjust margins as needed */
+}
+
+.nv-checkbox-input-wrapper,
+.nv-checkbox-size--small{
+display: flex;
+}
+
+.nv-checkbox{
+margin-right: 10px;
+}
+
+.title_contact{
+margin-top: 30px;
+border-bottom: 1px solid #d9d9d9;
+}
+
+
+.FormStepNavigation_actions__qIF9Y {
+-webkit-margin-before: 30px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px 30px;
+margin-block-start: 30px;
+}
+.nv-ids .nv-button-medium {
+line-height: 36px;
+padding-inline: 25px;
+}
+.nv-ids .nv-button-secondary, 
+.nv-ids a.nv-button-secondary:link, 
+.nv-ids a.nv-button-secondary:visited {
+background-color: initial;
+box-shadow: inset 0 0 0 2px #128279;
+color: #128279;
+width: 160px;
+height: 40px;
+border: none;
+border-radius: 5px;
+}
+.continue_button{
+color: white;
+background-color: #128279;
+border-radius: 5Px;
+border: none;
+}
+
+.nv-ids .nv-button-secondary.nv-button-active, 
+.nv-ids .nv-button-secondary:active,
+.nv-ids .nv-button-secondary:hover,
+.nv-ids a.nv-button-secondary:active,
+.nv-ids a.nv-button-secondary:hover {
+background-color: #0c4851;
+box-shadow: none;
+color: #fff;
+}
+.continue_button:active,
+.continue_button:hover {
+background-color: #0c4851;
+
+}
+
+.FormGroup_formField__dGYQV{
+margin-bottom: 35px;
+}
+.ContactsForm_phoneFieldConsentText__VqwBL{
+position: relative;
+bottom: 30px;
+}
+
+
+
+ 
